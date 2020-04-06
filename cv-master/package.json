@@ -1,0 +1,21 @@
+{
+  "name": "project_2",
+  "version": "1.0.0",
+  "description": "* HTML5\r * CSS3\r * GIT",
+  "main": "index.js",
+  "scripts": {
+    "prod": "css-minify -f style.css",
+    "dev": "mighty-sync --watch 'style.css' 'css-dist/style.min.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxelDevisse/cv.git"
+  },
+  "author": "AxelDevisse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxelDevisse/cv/issues"
+  },
+  "homepage": "https://github.com/AxelDevisse/cv#readme",
+  "dependencies": {}
+}
